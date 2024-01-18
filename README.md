@@ -1,11 +1,11 @@
 ## MMToM-QA: Multimodal Theory of Mind Question Answering <br> <sub>Official Model Implementation and Benchmark Guidelines</sub>
 
 
-### [Paper](https://openreview.net/pdf?id=jbLM1yvxaL) | [Project Page](https://chuanyangjin.com/mmtom-qa)
+### [Paper](https://arxiv.org/abs/2401.08743) | [Project Page](https://chuanyangjin.com/mmtom-qa)
 
 ![intro](visuals/intro.png)
 
-This repo features the code for the paper [**MMToM-QA: Multimodal Theory of Mind Question Answering**](https://openreview.net/pdf?id=jbLM1yvxaL).
+This repo features the code for the paper [**MMToM-QA: Multimodal Theory of Mind Question Answering**](https://arxiv.org/abs/2401.08743).
 
 It contains:
 
@@ -88,10 +88,12 @@ Note: There is both overlap and complementarity in the information presented in 
 Please cite the paper and star this repo if you find it interesting/useful, thanks!
 
 ```bibtex
-@inproceedings{jin2023mmtom,
-      title={MMToM-QA: Multimodal Theory of Mind Question Answering},
-      author={Jin, Chuanyang and Wu, Yutong and Cao, Jing and Xiang, Jiannan and Kuo, Yen-Ling and Hu, Zhiting and Ullman, Tomer and Torralba, Antonio and Tenenbaum, Joshua B and Shu, Tianmin},
-      booktitle={NeurIPS 2023 Foundation Models for Decision Making Workshop},
-      year={2023}
+@misc{jin2024mmtomqa,
+      title={MMToM-QA: Multimodal Theory of Mind Question Answering}, 
+      author={Chuanyang Jin and Yutong Wu and Jing Cao and Jiannan Xiang and Yen-Ling Kuo and Zhiting Hu and Tomer Ullman and Antonio Torralba and Joshua B. Tenenbaum and Tianmin Shu},
+      year={2024},
+      eprint={2401.08743},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
 }
 ```
