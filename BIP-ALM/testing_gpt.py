@@ -32,7 +32,7 @@ def generate_chat_response(prompt, max_tokens = 100, temperature = 0):
         max_tokens = max_tokens,
         temperature = temperature,
     )
-    return response["choices"][0]["message"]["content"]
+    return response.choices[0].message.content
 
 def generate_response_gpt4v(prompt, base64_images, max_tokens = 100, temperature = 0):
     client = OpenAI(api_key='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')
