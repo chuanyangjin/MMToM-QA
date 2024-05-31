@@ -1,7 +1,6 @@
 ## MMToM-QA: Multimodal Theory of Mind Question Answering <br> <sub>Official Model Implementation and Benchmark Guidelines</sub>
 
-
-### [Paper](https://arxiv.org/abs/2401.08743) | [Project Page](https://chuanyangjin.com/mmtom-qa)
+### [Paper](https://arxiv.org/abs/2401.08743) | [Project Page](https://chuanyangjin.com/mmtom-qa) | [Twitter](https://x.com/MIT_CSAIL/status/1750925830937604386)
 
 ![intro](visuals/intro.png)
 
@@ -88,12 +87,10 @@ Note: There is both overlap and complementarity in the information presented in 
 Please cite the paper and star this repo if you find it interesting/useful, thanks!
 
 ```bibtex
-@misc{jin2024mmtomqa,
-      title={MMToM-QA: Multimodal Theory of Mind Question Answering}, 
-      author={Chuanyang Jin and Yutong Wu and Jing Cao and Jiannan Xiang and Yen-Ling Kuo and Zhiting Hu and Tomer Ullman and Antonio Torralba and Joshua B. Tenenbaum and Tianmin Shu},
-      year={2024},
-      eprint={2401.08743},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
+@article{jin2024mmtom,
+  title={Mmtom-qa: Multimodal theory of mind question answering},
+  author={Jin, Chuanyang and Wu, Yutong and Cao, Jing and Xiang, Jiannan and Kuo, Yen-Ling and Hu, Zhiting and Ullman, Tomer and Torralba, Antonio and Tenenbaum, Joshua B and Shu, Tianmin},
+  journal={arXiv preprint arXiv:2401.08743},
+  year={2024}
 }
 ```
