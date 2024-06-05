@@ -87,6 +87,10 @@ python testing_gpt.py --gpt_choice gpt-4v --video_only
 
 Note: There is both overlap and complementarity in the information presented in the text and videos, as demonstrated in the [example](visuals/intro.png). From a video, a model gets the dynamic state change at each step as well as what objects the agent is walking towards and is passing by at a given step. A model needs this information to determine the agent’s expected action plans given a hypothesis about the belief and the goal. From the text, a model gets ground truth information about the initial state. Because of the partial observations caused by the limited camera view and occlusion, the text provides additional state information that is sometimes unavailable in the video. A model requires information about the true world state to determine whether an agent has a true belief or false belief as well as what objects the agent has observed so far.
 
+#### Training
+
+We provide a [training set](http://virtual-home.org/release/MMToMQA/training_set.zip) of synthetic human behavior data in household environments. This includes 1,000 procedurally synthesized videos with ground-truth annotations of the scene, objects, goals, and beliefs. Crucially, we do not provide any example QAs in the training set to avoid potential overfitting. We expect a model to learn how a person updates their mental state and acts accordingly in a physical environment from the human behavior data in the training set, and generalize the learned knowledge to answer the questions at test time.
+
 ## Citations
 Please cite the paper and star this repo if you find it interesting/useful, thanks!
 
