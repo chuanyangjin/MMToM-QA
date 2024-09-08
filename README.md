@@ -1,4 +1,4 @@
-## MMToM-QA: Multimodal Theory of Mind Question Answering <br> <sub>🏆 Outstanding Paper Award at ACL 2024</sub>
+# MMToM-QA: Multimodal Theory of Mind Question Answering <br> <sub>🏆 Outstanding Paper Award at ACL 2024</sub>
 ### [Paper](https://arxiv.org/abs/2401.08743) | [Project Page](https://chuanyangjin.com/mmtom-qa) | [Slides](https://chuanyangjin.com/assets/slides/MMToM-QA.pdf) | [Twitter](https://x.com/MIT_CSAIL/status/1750925830937604386)
 
 ![intro](visuals/intro.png)
@@ -10,7 +10,11 @@ It contains:
 * 🪐 The implementation of our method, BIP-ALM.
 * 💥 Guidelines for utilizing the MMToM-QA benchmark.
 
-## Bayesian Inverse Planning Accelerated by Language Models (BIP-ALM)
+## 🎉 News
+* **August 22, 2024: Our team are excited to present a new paper: [**MuMA-ToM: Multi-modal Multi-Agent Theory of Mind**](https://arxiv.org/abs/2408.12574). This extends our previous benchmark and method to a multi-agent setting.**
+* **August 14, 2024: MMToM-QA won the Outstanding Paper Award at ACL 2024!**
+
+## ✨️ Bayesian Inverse Planning Accelerated by Language Models (BIP-ALM)
 
 We propose Bayesian Inverse Planning Accelerated by Language Models (BIP-ALM), a novel method to engineer multimodal Theory of Mind. Here is an [overview](visuals/model.png) of the method.
 
@@ -42,7 +46,7 @@ python generate_finetuning_dataset.py --data_path finetuning_data --output_file 
 python finetuning.py --train_file formatted_finetuning_data.json --model_name_or_path meta-llama/Llama-2-7b-hf --fisher_matrix_path fisher-matrix/fisher-matrix-6B --per_device_train_batch_size 4 --gradient_accumulation_steps 4 --lr 5e-5 --num_epochs 3 --ewc_lambda 0.5 --output_dir output_finetuning.txt
 ```
 
-## MMToM-QA Benchmark
+## 🐳 MMToM-QA Benchmark
 
 MMToM-QA is the first multimodal benchmark to evaluate machine Theory of Mind (ToM), the ability to understand people's minds. For a detailed description, please visit our [project page](https://chuanyangjin.com/mmtom-qa).
 
@@ -90,7 +94,7 @@ Note: There is both overlap and complementarity in the information presented in 
 
 We provide a [training set](http://virtual-home.org/release/MMToMQA/training_set.zip) of synthetic human behavior data in household environments. This includes 1,000 procedurally synthesized videos with ground-truth annotations of the scene, objects, goals, and beliefs. Crucially, we do not provide any example QAs in the training set to avoid potential overfitting. We expect a model to learn how a person updates their mental state and acts accordingly in a physical environment from the human behavior data in the training set, and generalize the learned knowledge to answer the questions at test time.
 
-## Citations
+## 🔎 Citations
 Please cite the paper and star this repo if you find it interesting/useful, thanks!
 
 ```bibtex
