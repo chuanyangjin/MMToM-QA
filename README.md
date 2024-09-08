@@ -1,4 +1,4 @@
-# MMToM-QA: Multimodal Theory of Mind Question Answering <br> <sub>🏆 Outstanding Paper Award at ACL 2024</sub>
+## MMToM-QA: Multimodal Theory of Mind Question Answering <br> <sub>🏆 Outstanding Paper Award at ACL 2024</sub>
 ### [Paper](https://arxiv.org/abs/2401.08743) | [Project Page](https://chuanyangjin.com/mmtom-qa) | [Slides](https://chuanyangjin.com/assets/slides/MMToM-QA.pdf) | [Twitter](https://x.com/MIT_CSAIL/status/1750925830937604386)
 
 ![intro](visuals/intro.png)
