@@ -55,6 +55,8 @@ MMToM-QA is the first multimodal benchmark to evaluate machine Theory of Mind (T
 #### Text-only version
 [Text Inputs & Questions](/Benchmark/questions.json) (1.1 MB)
 
+It is also available for download from [Hugging Face](https://huggingface.co/datasets/Chuanyang-Jin/MMToM-QA).
+
 #### Multimodal version
 [Text Inputs & Questions](/Benchmark/questions.json) (1.1 MB)
 
