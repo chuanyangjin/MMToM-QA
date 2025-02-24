@@ -51,6 +51,8 @@ python finetuning.py --train_file formatted_finetuning_data.json --model_name_or
 
 MMToM-QA is the first multimodal benchmark to evaluate machine Theory of Mind (ToM), the ability to understand people's minds. For a detailed description, please visit our [project page](https://chuanyangjin.com/mmtom-qa).
 
+Here is the [leaderboard](https://chuanyangjin.com/mmtom-qa-leaderboard) for MMToM-QA. Please contact us if you'd like to add your results.
+
 ### Datasets
 
 #### Text-only version
