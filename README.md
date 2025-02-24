@@ -11,7 +11,7 @@ It contains:
 * 💥 Guidelines for utilizing the MMToM-QA benchmark.
 
 ## 🎉 News
-* **February 23, 2025: We are excited to present a new paper: [**AutoToM: Automated Bayesian Inverse Planning and Model Discovery for Open-ended Theory of Mind**](https://arxiv.org/abs/2502.15676). This paper enhances the BIP-ALM method to handle open-ended ToM scenarios. AutoToM achieves state-of-the-art performance on MMToM-QA and other ToM benchmarks.**
+* **February 23, 2025: We are excited to present a new paper: [**AutoToM: Automated Bayesian Inverse Planning and Model Discovery for Open-ended Theory of Mind**](https://arxiv.org/abs/2502.15676). AutoToM enhances the BIP-ALM method to handle open-ended ToM scenarios, achieving state-of-the-art performance on MMToM-QA and four other ToM benchmarks.**
 * **August 22, 2024: We are excited to present a new paper: [**MuMA-ToM: Multi-modal Multi-Agent Theory of Mind**](https://arxiv.org/abs/2408.12574) (AAAI 2025 Oral). This extends our previous benchmark and method to a multi-agent setting.**
 * **August 14, 2024: MMToM-QA won the Outstanding Paper Award at ACL 2024!**
 
