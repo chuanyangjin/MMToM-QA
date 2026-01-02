@@ -11,8 +11,8 @@ It contains:
 * 💥 Guidelines for utilizing the MMToM-QA benchmark.
 
 ## 🎉 News
-* February 23, 2025: We are excited to present a new paper: [**AutoToM: Automated Bayesian Inverse Planning and Model Discovery for Open-ended Theory of Mind**](https://arxiv.org/abs/2502.15676). AutoToM enhances the BIP-ALM method to handle open-ended ToM scenarios, achieving **state-of-the-art performance on MMToM-QA and four other ToM benchmarks**.
-* August 22, 2024: We are excited to present a new paper: **[MuMA-ToM: Multi-modal Multi-Agent Theory of Mind](https://arxiv.org/abs/2408.12574) (AAAI 2025 Oral)**. This extends our previous benchmark and method to a multi-agent setting.
+* February 21, 2025: We are excited to present a new paper: **[AutoToM: Automated Bayesian Inverse Planning and Model Discovery for Open-ended Theory of Mind](https://arxiv.org/abs/2502.15676) (NeurIPS 2025 Spotlight)** ([repo link](https://github.com/SCAI-JHU/AutoToM)). AutoToM is an automated agent modeling method for scalable, robust, and interpretable mental inference. It achieves **SOTA performance on MMToM-QA and four other ToM benchmarks**, produces human-like confidence estimates, and supports embodied decision-making.
+* August 22, 2024: We are excited to present a new paper: **[MuMA-ToM: Multi-modal Multi-Agent Theory of Mind](https://arxiv.org/abs/2408.12574) (AAAI 2025 Oral)** ([repo link](https://github.com/SCAI-JHU/MuMA-ToM)). This extends our previous benchmark and method to a setting involving embodied multi-agent interactions.
 * August 14, 2024: MMToM-QA won the **Outstanding Paper Award** at ACL 2024!
 
 ## ✨️ Bayesian Inverse Planning Accelerated by Language Models (BIP-ALM)
