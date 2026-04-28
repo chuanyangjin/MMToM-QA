@@ -103,10 +103,11 @@ We provide a [training set](http://virtual-home.org/release/MMToMQA/training_set
 Please cite the paper and star this repo if you find it interesting/useful, thanks!
 
 ```bibtex
-@article{jin2024mmtom,
+@inproceedings{jin2024mmtom,
   title={Mmtom-qa: Multimodal theory of mind question answering},
-  author={Jin, Chuanyang and Wu, Yutong and Cao, Jing and Xiang, Jiannan and Kuo, Yen-Ling and Hu, Zhiting and Ullman, Tomer and Torralba, Antonio and Tenenbaum, Joshua B and Shu, Tianmin},
-  journal={arXiv preprint arXiv:2401.08743},
+  author={Jin, Chuanyang and Wu, Yutong and Cao, Jing and Xiang, Jiannan and Kuo, Yen-Ling and Hu, Zhiting and Ullman, Tomer and Torralba, Antonio and Tenenbaum, Joshua and Shu, Tianmin},
+  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={16077--16102},
   year={2024}
 }
 ```
